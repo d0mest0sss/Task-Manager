@@ -1,0 +1,164 @@
+.task-lists-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  align-items: flex-start;
+  min-width: max-content;
+}
+
+.task-list {
+  background-color: #573e88ec;
+  border-radius: 8px;
+  padding: 12px;
+  min-width: 272px;
+  max-width: 272px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.task-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.edit-list-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+}
+
+.edit-list-input {
+  background-color: #2d2d2d;
+  color: #ffffff;
+  border: 2px solid #0079bf;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 14px;
+  font-weight: 600;
+  outline: none;
+  flex: 1;
+}
+
+.cancel-edit-btn {
+  background: none;
+  border: none;
+  color: #6b778c;
+  cursor: pointer;
+  padding: 4px;
+  font-size: 16px;
+}
+
+.list-title {
+  margin: 0 0 0px 3px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffffff;
+  cursor: pointer;
+  flex: 1;
+  padding: 4px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.list-title:hover {
+  background-color: #ffffff1a;
+}
+
+.delete-list-btn {
+  background: none;
+  border: none;
+  color: #6b778c;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  transition: all 0.2s ease;
+}
+
+.delete-list-btn:hover {
+  background-color: #ff5630;
+  color: white;
+}
+
+.add-list-container {
+  min-width: 272px;
+  max-width: 272px;
+}
+
+.add-list-form-container {
+  background-color: #2d2d2dde;
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.new-list-input {
+  width: 73%;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: inherit;
+  outline: none;
+  margin-bottom: 8px;
+}
+
+.form-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.add-list-submit-btn {
+  background-color: #0079bf;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.cancel-add-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #6b778c;
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-list-trigger-btn {
+  background-color: #ffffff3d;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 14px;
+  color: #e7e7e7ff;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: background-color 0.2s ease;
+  min-height: 44px;
+}
+
+.add-list-trigger-btn:hover {
+  background-color: #00000014;
+}
+
+.plus-icon {
+  font-size: 16px;
+}

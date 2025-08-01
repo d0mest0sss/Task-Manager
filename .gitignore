@@ -1,0 +1,34 @@
+# GLOBAL
+.DS_Store
+Thumbs.db
+*.log
+*.env
+.env.local
+.env.*.local
+*.iml
+.idea/
+*.swp
+.vscode/
+
+# BACKEND
+/backend/target/
+/backend/.mvn/
+/backend/.idea/
+/backend/*.iml
+/backend/.classpath
+/backend/.project
+/backend/.settings/
+/backend/logs/
+/backend/hs_err_pid*.log
+
+# FRONTEND
+/frontend/node_modules/
+/frontend/dist/
+/frontend/build/
+/frontend/.cache/
+/frontend/.env
+/frontend/.env.*.local
+/frontend/.eslintcache
+/frontend/.turbo/
+/frontend/.next/
+/frontend/yarn.lock
