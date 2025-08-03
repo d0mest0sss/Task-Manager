@@ -38,7 +38,7 @@ A full-stack task management application built with Spring Boot backend and mode
 - **Maven** - Dependency management
 
 ### Frontend
-- **React/Vue/Angular** (or your frontend framework)
+- **React**
 - **Vite** - Development server (runs on port 5173)
 - **HTTP Client** - For API communication
 
